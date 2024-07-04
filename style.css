@@ -140,8 +140,8 @@ header{
 .rose_part::before{
     content: "";
     position: absolute;
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background-color: #ED6088 ;
     bottom: -290px;
@@ -153,11 +153,11 @@ header{
 .text_part{
     margin-right: 100px;
 }
-.text_part h2{
+.text_part h2 , .text_part2 h2{
     color: #F9C818;
     margin-bottom: 20px;
 }
-.text_part p{
+.text_part p , .text_part2 p{
     font-size: var(--large-font-size);
     max-width: 450px;
     font-weight: bold;
@@ -165,4 +165,87 @@ header{
 }
 .text_part span{
     color: #237978;
+}
+.roses2{
+    width: 100%;
+    display: flex;
+    margin: 60px auto;
+    gap: 150px;
+}
+.text_part2{
+    margin-left: 100px;
+}
+.rose_part2 img{
+    width: 400px;
+    height: 300px;
+    margin: 0 0 0 30px;
+    border-radius: 20px;
+    z-index: 1;
+    position: relative;
+    margin-right: 80px;
+}
+.rose_part2::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ED6088 ;
+    bottom: -120px;
+    right: -10px;
+    z-index: -1;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.rose_part2{
+    position: relative;
+}
+.Read_Button{
+    padding: 15px 20px;
+    border-radius: 7px;
+    background-color: #237978;
+    color: #F9C818;
+    text-align: center;
+
+}
+.diff{
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.diff h3{
+    padding-top:45px ;
+    text-align: center;
+    font-size: 30px;
+    color: #237978;
+}
+.big_image {
+    z-index: -1;
+    position: absolute;
+    top: 10%;
+    right: -10%;
+    width: 700px;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card1 img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 15%;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+}
+.card_content{
+    background-color: #F1F1F1;
+    padding: 15px 20px;
+    width: 50%;
+    height: ;
+    
 }
