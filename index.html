@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script></script>
     <title>Document</title>
 </head>
 <body>
@@ -54,6 +55,57 @@
             <h1>Les plantes monocotylédones et dicotylédones</h1>
         </div>
     </section>
+    <section class="second">
+        <p>Bienvenue chez <span class="herbe">Herbe</span> , votre ressource incontournable pour les herbes dicotylédones et monocotylédones. Découvrez des guides détaillés , des informations et des caractéristiques sur ces plantes.</p>
+        <img src="./images/Ellipse_1.png" class="E1" alt="">
+        <img src="./images/Ellipse_1.png" class="E2" alt="">
+        <img src="./images/Ellipse_1.png" class="E3" alt="">
+        <img src="./images/Ellipse_1.png" class="E4" alt="">
+    </section>
+    <section class="third">
+        <div class="content">
+            <h2 class="title">Mauvais herbes</h2>
+            <p>
+                Les mauvaises herbes sont des plantes indésirables qui poussent dans des endroits inappropriés. Elles se dispersent facilement et persistent. Elles rivalisent avec le gazon pour les nutriments, la lumière et l'eau, ce qui dégrade la qualité de la pelouse. Un gazon sera moins dense et plus vulnérable aux maladies et aux insectes.
+            </p>
+        </div>
+            <img src="./images/the herbs/chamomile 1.png" alt="">
+    </section>
+    <section class="Adventice">
+        <img src="./images/the herbs/Group 7.png" alt="">
+        <div class="content">
+            <h2 class="title">Adventice</h2>
+            <p>
+                En agronomie, une plante adventice est une plante herbacée ou ligneuse considérée comme indésirable à l'endroit où elle pousse. Fréquemment appelées mauvaises herbes, les plantes adventices sont des espèces végétales qui ne sont pas indigènes au lieu où elles se trouvent. Elles peuvent être introduites accidentellement et sont souvent qualifiées de plantes accidentelles.            </p>
+        </div>
+    </section>
+    <section class="Difference">
+        <div class="text">
+            <h3>
+                Differnce entre Mauvaises herbes et  Adventice
+            </h3>
+            <p>
+                Toutes les espèces qui s’introduisent dans les cultures sont couramment dénommées “adventice” ou “mauvaise herbe”. Bien que généralement employés dans le même sens, ces deux termes ne sont pas absolument identiques : pour l’homme, une “adventice” est une  plante introduite spontanément ou involontairement par l’homme dans les biotopes cultivés (BOURNERIAS ,1979), une “mauvaise herbe” est une  plante indésirable (GODINHO ,1984). Le terme de “mauvaise herbe” fait donc intervenir une notion de nuisance, et dans les milieux cultivés en particulier, toute espèce non volontairement semée est une adventice qui devient “mauvaise herbe”  au-delà d’une certaine densité, c’est -à–dire dés qu’elle entraîne un préjudice qui se caractérise en particulier, par une baisse du rendement (BARRALIS ,1984).
+            </p>
+        </div>
+        <img src="./images/Ellipse_1.png" class="E2" alt="">
+        <img src="./images/Ellipse_1.png" class="E3" alt="">
+        <img src="./images/Ellipse_1.png" class="E4" alt="">
+        <img src="./images/Ellipse_1.png" class="E1" alt="">
+    </section>
     
+
+    <script>
+        const plantItem = document.querySelector(".plant");
+        const menu = document.querySelector(".menu");
+        const item = document.querySelector("menu_item")
+        plantItem.addEventListener('mouseover',()=>{
+            menu.style.display = 'block';
+        });
+        menu.addEventListener('mouseleave', ()=>{
+                menu.style.display = 'none'
+            }
+        )
+</script>
 </body>
 </html>
