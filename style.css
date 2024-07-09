@@ -211,7 +211,7 @@ nav svg{
     font-size: 21px;
     color: white;
 }
-.third img{
+.third img {
     width: 350px;
     height: 350px;
     object-fit: contain;
@@ -253,7 +253,7 @@ nav svg{
     text-align: center;
     padding: 20px 0;
 }
-.Difference > .text p{
+.text p{
     text-align: justify;
     display: flex;
     padding: 22px auto;
@@ -261,6 +261,55 @@ nav svg{
     font-size: 20px;
     line-height: 1.8;
     font-family: 'Caveat',cursive;
+}
+.Mono{
+    background-color: #2A4B20;
+    display: flex;
+    justify-content: space-evenly;
+}
+.MonoContent{
+    padding: 20px;
+}
+.MonoTitle{
+    margin-bottom: 13px;
+    color: white;
+    font-size: 24px;
+}
+.MonoContent p{
+    color: #A5C66B;
+    font-family: "Caveat",cursive;
+    font-size: 22px;
+    max-width: 450px;
+}
+.Mono img{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    object-fit: contain;
+}
+.Deco{
+    background-color: #A5C66B ;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 100%;
+}
+.Deco img , .Deco .content{
+    width: 50%;
+}
+.Deco img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+.Deco .content .title{
+    padding: 0 0 20px 0;
+}
+.Deco .content p{
+    line-height: 1.8;
+    font-family: "Caveat",cursive;
+    font-size: 20px;
+    color: white;
 }
 @media (min-width:346px) and (max-width:600px){
     header{
@@ -340,16 +389,53 @@ nav svg{
         border-radius: 20px ;
     }
     .Difference{
-        height: 100vh;
+        height: 130vh;
     }
     .Difference h3{
         font-size: 14px;
+        padding: 10px;
     }
-    .Difference > .text p{
+    .text p{
+        display: block;
         color: white;
-        font-size: 18px;
-        line-height: 1.2;
+        font-size: 14px;
+        line-height: 1.1;
         font-family: 'Caveat',cursive;
+    }
+    .Mono{
+        background-color: #2A4B20;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .MonoContent h2{
+        font-size: 25px;
+    }
+    .MonoContent p{
+        color: #A5C66B;
+        font-family: "Caveat",cursive;
+        font-size: 18px;
+        max-width: none;
+    }
+    .Mono img{
+        width: 350px;
+        height: 350px;
+        border-radius: 35px;
+    }
+    .Deco{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Deco .content {
+        width: 100%;
+    }
+    .Deco .content .title{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .Deco .content p{
+        font-size: 18px;
+        
     }
 }
 @media (min-width:601px) and (max-width:900px)
@@ -409,12 +495,34 @@ nav svg{
     .Difference{
         height: 100vh;
     }
-    .Difference > .text p{
+    .text p{
         color: white;
         padding: 0 auto;
-        font-size: 19px;
+        font-size: 20px;
         line-height: 1.5;
         font-family: 'Caveat',cursive;
+    }
+    .Mono{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .MonoContent p{
+        max-width: 550px;
+    }
+    .Deco{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .Deco .content {
+        width: 100%;
+    }
+    .Deco .content .title{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .Deco .content p{
+        font-size: 18px;
+        
     }
 }
 @media (min-width:901px){
@@ -447,5 +555,14 @@ nav svg{
     }
     .blurry h1{
         font-size: 30px;
+    }
+    .Difference{
+        height: 80vh;
+    }
+    .text p{
+        color: white;
+        font-size: 22px;
+        line-height: 1.7;
+        font-family: 'Caveat',cursive;
     }
 }
