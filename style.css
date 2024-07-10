@@ -316,6 +316,7 @@ nav svg{
     display: flex;
     flex-direction: column;
     background-color: #2A4B20;
+    padding-bottom: 20px;
 }
 .DMD h5{
     text-align: center;
@@ -351,26 +352,46 @@ nav svg{
     max-width: 400px;
 }
 .contact{
-    background-color: black;
+    background-color: #A5C66B;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    font-family: 'Caveat',cursive;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.col h1 , .col2{
+    display: flex;
+    flex-direction: column;
     color: white;
+}
+.col ul{
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.col2 h1{
+    padding-bottom: 10px;
+}
+.col2 .reseau img{
+    padding: 0 5px;
+}
+footer{
+    background-color: #2A4B20;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    color: white;
+    height: 70px;
 }
-.contact .one{
-    width: 50%;
-    padding: 20px 15px;
-}
-.contact .one p , .abonn p{
-    font-size: 20px;
+footer h6{
     font-weight: bold;
+    font-size: 15px;
 }
-.one ul{
-    list-style: none;
-}
-.one li{
-    padding: 2px 10px;
+footer h6 span{
+    color: #A5C66B;
 }
 @media (min-width:346px) and (max-width:600px){
     header{
