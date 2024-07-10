@@ -46,6 +46,7 @@ body{
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: white;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -406,6 +407,9 @@ footer h6 span{
         margin: -31px 0 0 -40px;
         gap: 7px;
     }
+    .first{
+        height: 70vh;
+    }
     .img_logo{
         width: 24px;
         height: 24px;
@@ -471,7 +475,7 @@ footer h6 span{
         border-radius: 20px ;
     }
     .Difference{
-        height: 70vh;
+        height: 100vh;
     }
     .Difference h3{
         font-size: 14px;
@@ -481,7 +485,7 @@ footer h6 span{
         display: block;
         color: white;
         font-size: 17px;
-        line-height: 1.1;
+        line-height: 0.9;
         font-family: 'Caveat',cursive;
     }
     .Mono{
@@ -528,7 +532,22 @@ footer h6 span{
         width: 100%;
         margin: 0 50px;
     }
-
+    .contact{
+        justify-content: left;
+    }
+    .col{
+        padding: 0;
+    }
+    .col2{
+        margin-top: 6px;
+    }
+    .col , .col2{
+        margin:0 0 0 12px;
+    }
+    footer h6{
+        font-size: 14px;
+        text-align: center;
+    }
 }
 @media (min-width:601px) and (max-width:900px)
 {
