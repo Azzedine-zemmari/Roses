@@ -1,50 +1,13 @@
-/* 
-    * Google fonts
-*/
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* 
-    * Css variable
-*/
-:root{
-    /* 
-        *Colors
-    */
-    --golden:hsl(47,95,54,100%);
-    --rose:hsl(343,80,65,100%);
-    --forest:hsl(179,55,31,100%);
-
-    /* 
-        *Fonts
-    */
-    --body-font:'Jost',sans-serif;
-    --second-font:"Caveat",cursive;
-    --h1-font-size:40px;
-    --h2-font-size:35px;
-    --h3-font-size:28px;
-    --h4-font-size:24px;
-    --h5-font-size:22px;
-    --large-font-size:20px;
-    --normal-font-size:16px;
-    --tiny-font-size:13px;
-
-    /* 
-        *shadow
-    */
-    --shadow:5px 5px rgb(255 255 255 / 10%);
-}
-
-/* 
-    *init
-*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
+    font-family: 'Jost',sans-serif;
+    font-size: 16px;
     background-color: white;
     scroll-behavior: smooth;
 }
@@ -91,7 +54,7 @@ header{
 }
 .item{
     font-weight:600;
-    font-size: var(--large-font-size);
+    font-size:20px;
 }
 .item>img{
     height: 7px; 
@@ -141,6 +104,9 @@ header{
 }
 .menu_item{
     padding: 14px 0 0 12px;
+}
+a:visited{
+    color: #2A4B20;
 }
 nav svg{
     width: 20px;
@@ -467,7 +433,7 @@ footer h6 span{
         flex-direction: column-reverse;
         gap: 40px;
     }
-    .third img , .Adventice img{
+    .third img , .Adventice img , .Mono img , .Deco img{
         width: 300px;
         height: 300px;
         object-fit: none;
@@ -634,8 +600,14 @@ footer h6 span{
     .Deco .content p{
         font-size: 18px;
     }
+    .cards{
+        gap: 10px;
+    }
     .card{
         height: 225px;
+    }
+    .card li{
+        padding: 0 ;
     }
     .DMD{
         height: 330px;
