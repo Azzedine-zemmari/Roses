@@ -373,7 +373,6 @@ footer h6 span{
     header{
         gap: 0;
         position: relative;
-        /* background-size: 300vw; */
     }
     .logo{
         position: absolute;
